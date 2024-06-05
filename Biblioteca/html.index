@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Libros de la Biblioteca</title>    
+</head>
+<body>
+    <header>
+        <h1>Buscador de Libros de la Biblioteca</h1>
+    </header>
+    <div class="search-container">
+        <h2>Buscar un Libro</h2>
+        <label for="isbn">ISBN:</label>
+        <input type="text" id="isbn" name="isbn">
+        
+        <label for="title">Título:</label>
+        <input type="text" id="title" name="title">
+        
+        <label for="author">Autor:</label>
+        <input type="text" id="author" name="author">
+        
+        <label for="publication-date">Fecha de Edición:</label>
+        <input type="date" id="publication-date" name="publication-date">
+        
+        <label for="pages">Número de Páginas:</label>
+        <input type="text" id="pages" name="pages">
+        
+        <label for="copies">Cantidad de Ejemplares:</label>
+        <input type="text" id="copies" name="copies">
+        
+        <label for="available-copies">Ejemplares Disponibles:</label>
+        <input type="text" id="available-copies" name="available-copies">
+        
+        <label for="summary">Resumen:</label>
+        <input type="text" id="summary" name="summary">
+        
+        <label for="type">Tipo:</label>
+        <select id="type" name="type">
+            <option value="physical">Físico</option>
+            <option value="digital">Digital</option>
+        </select>
+        
+        <label for="topic">Tema:</label>
+        <input type="text" id="topic" name="topic">
+        
+        <label for="location">Ubicación Física:</label>
+        <input type="text" id="location" name="location">
+        
+        <button type="submit">Buscar</button>
+    </div>
+    <div class="results-container" id="results-container">
+        <!-- Los resultados se mostrarán aquí -->
+    </div>   
+</body>
+</html>
